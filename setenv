@@ -1,0 +1,1 @@
+export PYTHONPATH=$PYTHONPATH:$PWD/SDK/LeapSDK/lib:$PWD/SDK/LeapSDK/lib/x64:$PWD/src

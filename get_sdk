@@ -1,0 +1,6 @@
+#!/bin/sh
+
+[ -d SDK ] || mkdir SDK
+[ -f SDK/LeapSDK.tar.gz ] || wget -O SDK/LeapSDK.tar.gz http://warehouse.leapmotion.com/apps/4185/download/ 
+
+cd SDK && tar xvf LeapSDK.tar.gz  --strip-components 1
