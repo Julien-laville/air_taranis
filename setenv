@@ -1,1 +1,2 @@
-export PYTHONPATH=$PYTHONPATH:$PWD/SDK/LeapSDK/lib:$PWD/SDK/LeapSDK/lib/x64:$PWD/src
+export PYTHONPATH=$PYTHONPATH:$PWD/leap3_lib
+export LD_PRELOAD=$LD_PRELOAD:$PWD/leap3_lib/libLeap.so
