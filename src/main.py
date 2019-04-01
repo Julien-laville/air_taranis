@@ -5,7 +5,7 @@ def main():
     controller = Leap.Controller()
     listener = AirController()
     controller.add_listener(listener)
-
+    print('listening ...')
     try:
         sys.stdin.readline()
     except KeyboardInterrupt:
